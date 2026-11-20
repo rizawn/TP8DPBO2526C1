@@ -46,24 +46,6 @@ Aplikasi ini mengelola 3 entitas relasional terpadu:
 
 ---
 
-## Pemenuhan Spesifikasi Tugas Praktikum 8
-
-Berdasarkan dokumen panduan **Modul 9: MVC**, seluruh spesifikasi teknis dan kriteria penilaian tugas praktikum telah dipenuhi 100%:
-
-| No | Spesifikasi Tugas Praktikum 8 | Status | Implementasi pada Proyek |
-| :---: | :--- | :---: | :--- |
-| 1 | **Buat database berdasarkan kode tersebut** | ✅ | Database `tp_mvc25` dibuat dengan DDL tabel awal `lecturers` dan telah disesuaikan dengan skrip migrasi terstruktur pada `tp_mvc25.sql`. |
-| 2 | **Ubah arsitektur project menjadi MVC** | ✅ | Menghapus seluruh pendekatan prosedural lama (`create.php`, `edit.php`, `delete.php`, `connection.php`). Sistem dibangun ulang mengikuti pola MVC baku Modul 9 (`models/`, `views/`, `controllers/`, `templates/`, `Template.php`, `DB.php`). |
-| 3 | **Tambah 1 - 2 tabel baru yang berelasi** | ✅ | Menambahkan **2 tabel baru**: `departments` (tabel master unit program studi) dan `courses` (tabel mata kuliah kurikulum) dengan integritas *Foreign Key* ganda ke tabel `lecturers`. |
-| 4 | **Buat CRUD untuk tabel baru tadi** | ✅ | Operasi **Create, Read, Update, Delete** diimplementasikan penuh untuk entitas `departments` (`department.php`) dan entitas `courses` (`course.php`). |
-| 5 | **Boleh mengubah/menambah atribut tabel yang ada** | ✅ | Memperkaya tabel `lecturers` dengan atribut relasi `department_id` (*Foreign Key* berelasi ke `departments.id`) dan `created_at`. |
-| 6 | **Struktur Repo: Folder Project** | ✅ | Seluruh kode sumber aplikasi berbasis arsitektur MVC tersusun rapi di dalam direktori `Project/`. |
-| 7 | **Struktur Repo: Folder Dokumentasi** | ✅ | Berisi seluruh tangkapan layar (*screenshot*) alur kerja dan animasi demo interaktif `demo_mvc.gif` di direktori `Dokumentasi/`. |
-| 8 | **Struktur Repo: File SQL** | ✅ | Skrip DDL pembentukan skema basis data dan sampel data benih (*seed data*) disediakan pada berkas `tp_mvc25.sql`. |
-| 9 | **Struktur Repo: ReadMe.md Lengkap** | ✅ | Berkas `README.md` disusun komprehensif memuat identitas, janji, arsitektur, diagram ERD, alur eksekusi, matriks fitur, tabel pengujian, dokumentasi visual, dan panduan instalasi. |
-
----
-
 ## Teknologi yang Digunakan
 
 - **Bahasa Pemrograman:** PHP 8.x (PHP Native dengan OOP & MVC Pattern)
