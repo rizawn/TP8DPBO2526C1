@@ -480,8 +480,3 @@ class Config
    - *Solusi:* Tabel `courses` menggunakan aturan `ON DELETE CASCADE` sehingga mata kuliah yang berada di bawah departemen tersebut akan otomatis terhapus bersama departemennya.
 
 ---
-
-<p align="center">
-  <b>CampusAdmin MVC &bull; Tugas Praktikum 8 DPBO 2026</b><br>
-  Riza Wahyu Nugraha (2511421) &bull; Kelas C1 &bull; Universitas Pendidikan Indonesia
-</p>
